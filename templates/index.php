@@ -14,7 +14,7 @@ doAction('index_1');
 		<br/>
 		点击上方导航栏的 功能菜单 可以列出所有功能
 		<br/>
-		此程序作者为  <a href="https://kenvix.com" target="_blank">Kenvix</a> &amp; <a href="http://www.mokeyjay.com/" target="_blank">mokeyjay</a> &amp; <a href="http://fyy1999.lofter.com/" target="_blank">FYY</a> &amp; <a href="http://www.stusgame.com/" target="_blank">StusGame</a>
+		此程序作者为  <a href="https://kenvix.com" target="_blank">Kenvix</a> &amp; <a href="https://www.mokeyjay.com/" target="_blank">mokeyjay</a> &amp; <a href="https://fyy1999.lofter.com/" target="_blank">FYY</a> &amp; <a href="https://www.stusgame.com/" target="_blank">StusGame</a>
 		<br/>本站 [ <?php echo SYSTEM_NAME ?> ] 保留所有权利
 	<?php doAction('index_p_1'); ?>
 	</div>
@@ -115,7 +115,7 @@ if (ROLE == 'admin') {
 			}
 			echo '</li>';
 			if (defined('ANTI_CSRF') && !ANTI_CSRF) {
-				echo '<li class="list-group-item"><font color="#FF6600"><span class="glyphicon glyphicon-warning-sign"></span> <b>安全性警告：</b></font>站点的<a href="http://git.oschina.net/kenvix/Tieba-Cloud-Sign/wikis/%E5%85%B3%E4%BA%8E%E4%BA%91%E7%AD%BE%E5%88%B0CSRF%E9%98%B2%E5%BE%A1" target="_blank">CSRF防御</a>被关闭，站点有一定的安全风险。</li>';
+				echo '<li class="list-group-item"><font color="#FF6600"><span class="glyphicon glyphicon-warning-sign"></span> <b>安全性警告：</b></font>站点的<a href="https://git.oschina.net/kenvix/Tieba-Cloud-Sign/wikis/%E5%85%B3%E4%BA%8E%E4%BA%91%E7%AD%BE%E5%88%B0CSRF%E9%98%B2%E5%BE%A1" target="_blank">CSRF防御</a>被关闭，站点有一定的安全风险。</li>';
 			}
 			if (version_compare(PHP_VERSION, '5.4.0') < 0) {
 				echo '<li class="list-group-item"><font color="#FF6600"><span class="glyphicon glyphicon-warning-sign"></span> <b>安全性警告：</b></font>站点使用的PHP版本较落后，云签到效率和安全水平下降。</li>';
@@ -139,7 +139,7 @@ if (ROLE == 'admin') {
 
 doAction('index_3');
 doAction('index_2');
-echo '<br/>'.SYSTEM_FN ?> V<?php echo SYSTEM_VER  . ' ' . SYSTEM_VER_NOTE ?> // 作者: <a href="https://kenvix.com" target="_blank">Kenvix</a> &amp; <a href="http://www.mokeyjay.com/" target="_blank">mokeyjay</a> &amp; <a href="http://fyy1999.lofter.com/" target="_blank">FYY</a> &amp; <a href="http://www.stusgame.com/" target="_blank">StusGame</a>
+echo '<br/>'.SYSTEM_FN ?> V<?php echo SYSTEM_VER  . ' ' . SYSTEM_VER_NOTE ?> // 作者: <a href="https://kenvix.com" target="_blank">Kenvix</a> &amp; <a href="https://www.mokeyjay.com/" target="_blank">mokeyjay</a> &amp; <a href="https://fyy1999.lofter.com/" target="_blank">FYY</a> &amp; <a href="https://www.stusgame.com/" target="_blank">StusGame</a>
 
 <script type="text/javascript">
 	$.ajax({ 
