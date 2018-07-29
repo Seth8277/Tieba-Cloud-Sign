@@ -16,7 +16,7 @@ function loadhead($title = '') {
 	echo '<title>'.$title.'</title>';
 	echo '<meta name="generator" content="Tieba Cloud Sign Ver.'.SYSTEM_VER.'" />';
 	echo '<link href="favicon.ico" rel="shortcut icon"/>';
-	echo '<meta name="author" content="Kenvix (https://kenvix.com) at StusGame (http://lovelive.us)" />';
+	echo '<meta name="author" content="Kenvix (https://kenvix.com) at StusGame (https://lovelive.us)" />';
 	echo '<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />';
 	echo '<script src="source/js/jquery.min.js"></script>';
 	echo '<link rel="stylesheet" href="source/css/bootstrap.min.css">';
@@ -72,7 +72,7 @@ function loadfoot($copy = false) {
         }
     }
     if($copy) {
-        echo '<br/><br/>'.SYSTEM_FN.' V'.SYSTEM_VER.' // 作者: <a href="https://kenvix.com" target="_blank">Kenvix</a>  &amp; <a href="http://www.mokeyjay.com" target="_blank">mokeyjay</a> &amp;  <a href="http://fyy1999.lofter.com/" target="_blank">FYY</a> ';
+        echo '<br/><br/>'.SYSTEM_FN.' V'.SYSTEM_VER.' // 作者: <a href="https://kenvix.com" target="_blank">Kenvix</a>  &amp; <a href="https://www.mokeyjay.com" target="_blank">mokeyjay</a> &amp;  <a href="https://fyy1999.lofter.com/" target="_blank">FYY</a> ';
     }
 	echo '</div></div></div></div></body></html>';
 }
