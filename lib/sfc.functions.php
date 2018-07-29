@@ -93,12 +93,12 @@ function getBaiduId($bduss){
  * http://en.gravatar.com/site/implement/images/
  * @return bool|string
  */
-function gravatar($email, $s = 140, $d = 'mm', $g = 'g', $site = 'secure') {
+function gravatar($email, $s = 140, $d = 'mm', $g = 'g', $site = 'v2ex') {
 	$hash = md5($email);
-	if($site == 'secure') {
-		return "https://secure.gravatar.com/avatar/$hash?s=$s&r=$g";
+	if($site == 'v2ex') {
+		return "https://cdn.v2ex.com/gravatar/$hash?s=$s&r=$g&d=retro";
 	} else {
-		return "//{$site}.gravatar.com/avatar/$hash?s=$s&r=$g";
+		return "//{$site}.gravatar.com/avatar/$hash?s=$s&r=$g&d=retro";
 	}
 }
 
@@ -107,7 +107,7 @@ function gravatar($email, $s = 140, $d = 'mm', $g = 'g', $site = 'secure') {
  * http://en.gravatar.com/site/implement/images/
  * @return bool|string
  */
-function getGravatar($s = 140, $d = 'mm', $g = 'g', $site = 'moefont') {
+function getGravatar($s = 140, $d = 'mm', $g = 'g', $site = 'v2ex') {
 	if(option::uget('face_img') == 1) {
 		if(option::uget('face_url') != ''){
 			return option::uget('face_url');
