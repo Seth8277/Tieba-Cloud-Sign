@@ -131,7 +131,7 @@ if (!empty($i['user']['bduss'])) {
 			dataType  : "text",
 			beforeSend: function () {},
 			success   : function (data) {
-				if (data == "1") self.location.reload();
+				if (data == 1) self.location.reload();
 			},
 			complete  : function (XMLHttpRequest, textStatus) {},
 			error     : function () {
